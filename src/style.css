@@ -1,0 +1,56 @@
+body
+{
+  background: #D3D0CB;
+}
+
+#titulo{
+  font-size: 80px;
+  text-align: center;
+  font-style: oblique;
+}
+#flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+
+}
+
+.container {
+
+  position: relative;
+  margin: 10px;
+  padding: 10px;
+
+}
+
+img {
+  border-radius: 10%;
+
+}
+
+.container .card .imgBx{
+
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+
+}
+
+.container .card .medidas {
+
+  line-height: 10px;
+  text-align: center;
+  font-size: 100%;
+
+}
+
+.container .card .medidas span {
+  letter-spacing: 1%;;
+}
